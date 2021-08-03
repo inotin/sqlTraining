@@ -1,4 +1,4 @@
---https-//www.interviewquery.com/questions/paired-products
+--the task is from: https://www.interviewquery.com/questions/paired-products
 SELECT
 (CASE WHEN p1.name<p2.name THEN p1.name ELSE p2.name END) AS P1, -- these cases are needed to make P1 and P2 in alphabetical order as required by the task
 (CASE WHEN p1.name<p2.name THEN p2.name ELSE p1.name END) AS P2,
